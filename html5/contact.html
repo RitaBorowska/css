@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Moja pierwsza strona internetowa</title>
+    <style>
+        .formularz {
+
+        }
+    
+        #contactForm {
+
+        }
+
+        form {
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav id="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutme.html">O mnie</a>
+                </li>
+                <li>
+                    <a href="contact.html">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="contactForm" action="http://172.16.177.32/html_/form.php" class="formularz" method="post">
+            <!-- style="background-color: aliceblue;" -->
+            <label for="firstName">
+                <span>Imię:</span> <input type="text" name="firstName" id="firstName">
+            </label>
+            <label for="lastName">
+                <span>Nazwisko:</span> <input type="text" name="lastName" id="lastName">
+            </label>
+            <label for="email">
+                <span>Email:</span> <input type="email" name="email" id="email">
+            </label>
+            <input type="submit" value="Wyślij">
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; JB 2020</p>
+    </footer>
+
+</body>
+
+</html>

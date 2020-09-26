@@ -1,0 +1,15 @@
+.main-paragraph {
+    color: lightblue;
+}
+
+#block-element {
+    border: 1px solid darkorange;
+}
+
+#block-element p {
+    border: 1px solid darkslateblue;
+}
+
+#block-element span {
+    border: 1px solid lightgreen;
+}
